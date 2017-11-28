@@ -5,8 +5,8 @@
 https://papers.nips.cc/paper/5127-rapid-distance-based-outlier-detection-via-sampling.pdf
 """
 
-import sys
-sys.path.insert(1,'/usr/local/lib/python2.7/dist-packages/')
+#import sys
+#sys.path.insert(1,'/usr/local/lib/python2.7/dist-packages/')
 
 
 import numpy as np
@@ -113,7 +113,7 @@ class RapidOutlierDetection(BaseEstimator, ClassifierMixin):
             error = "n_samples = %s, but should be <= %s" % (self.n_samples,N)
             raise ValueError(error)
         if self.n_samples <= 0:
-            error = "n_samples = %s, but should be > 0" % n_samples
+            error = "n_samples = %s, but should be > 0" % self.n_samples
             raise ValueError(error)
         if self.n_samples < 5:
             warning = "n_samples < 5. The method suggests n_samples ~=~ 20."
