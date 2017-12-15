@@ -1,6 +1,8 @@
 # rapid-outlier-detection
 Rapid Outlier Detection via Sampling
 
+If you want to run the benchmark.py - script to benchmark the algorithms: rapid-outlier-detection, IsolationForest, LOF and OneClassSVM on the datasets: covtype, kdd1999, gaussian1e3, please before you run the script make sure that you unzip the datasets.zip from the folder data/.
+
 Reference:
 "Rapid Outlier Detection via Sampling", Mahito Sugiyama, Karsten M. Borgwardt
 
