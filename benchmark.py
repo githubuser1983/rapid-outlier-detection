@@ -46,7 +46,7 @@ class Benchmark(object):
 def read_datasets():
     datasets = { 
                  'covtype' : './data/covtype_original.csv',
-                 'gaussian1e3':'./data/gaussian1e3_original.csv'
+                 'gaussian1e3':'./data/gaussian1e3_original.csv',
                  'kdd1999' : './data/kdd1999_original.csv'
                 }
     dataframes = []
